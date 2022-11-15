@@ -18,7 +18,7 @@ export class About extends Component {
                 something I make sure to do it. I love coding and watching
                 animation
               </p>
-              <div className="flex lg:flex-row sm:flex-row-1 space-x-8 justify-center text-left">
+              <div className="flex flex-wrap lg:flex-row sm:flex-row-1 justify-center text-left">
                 <ul>
                   <li className="about">
                     <span className="font-bold">Birthday:</span> 29 January 2000
@@ -46,8 +46,8 @@ export class About extends Component {
               </div>
             </div>
 
-            <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-              <img src={require("../../me3.jpeg")} alt={'no img'}/>
+            <div className="card card-compact flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+              <img src={require("../../assets/me3.jpeg")} alt={"no img"} className="round" />
             </div>
           </div>
         </div>

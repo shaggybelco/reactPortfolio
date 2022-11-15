@@ -1,0 +1,78 @@
+/* TabViewDemo.css */
+
+.tabview-demo .tabview-header-icon i,
+.tabview-demo .tabview-header-icon span {
+  vertical-align: middle;
+}
+
+.tabview-demo .tabview-header-icon span {
+  margin: 0 0.5rem;
+}
+
+.tabview-demo .p-tabview p {
+  line-height: 1.5;
+  margin: 0;
+}
+
+.next {
+  margin-top: 13px;
+  background-color: rgb(0, 98, 189) !important;
+  color: white !important;
+  border: none;
+}
+
+.tt {
+  color: white;
+}
+
+.web {
+  background-color: rgba(0, 98, 189);
+  min-width: max-content;
+  padding: 10px;
+  border-radius: 5px;
+}
+.web:hover {
+  transform: scale(1.1);
+}
+
+label:hover {
+  transform: scale(1.1);
+}
+
+/* from angular */
+
+i,span .tabview-custom :host ::ng-deep{
+  vertical-align: middle;
+}
+span {
+  margin: 0 0.5rem;
+}
+:host ::ng-deep .p-button {
+  margin-right: 0.25rem;
+}
+:host ::ng-deep .p-tabview p {
+  line-height: 1.5;
+  margin: 0;
+}
+.imgsize {
+  height: 40% !important;
+}
+
+:host ::ng-deep .p-button {
+  margin: 0 0.5rem 0 0;
+  min-width: 10rem;
+}
+
+p {
+  margin: 0;
+}
+
+.confirmation-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+:host ::ng-deep .p-dialog .p-button {
+  min-width: 6rem;
+}

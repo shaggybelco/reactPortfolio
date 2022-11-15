@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import About from "../about/About";
+import Contact from "../Contact/Contact";
 import Home from "../home/Home";
 import Portfolio from "../portfolio/Portfolio";
 import Resume from "../resume/Resume";
@@ -69,10 +70,7 @@ export class Navbar extends Component {
                     <div id="about"><About/></div>
                     <div id="resume"><Resume></Resume></div>
                     <div id="portfolio"> <Portfolio/> </div>
-                {/* <app-about id="about"></app-about>
-                <app-resume id="resume"></app-resume>
-                <app-portfolio id="portfolio"></app-portfolio>
-                <app-contact id="contact"></app-contact> */}
+                    <div id="contact"><Contact></Contact> </div>
               </main>
             </div>
 
@@ -82,7 +80,7 @@ export class Navbar extends Component {
                 <div className="n">
                   <div className="avatar flex justify-center avt">
                     <div className="w-24 rounded-full ring ring-ghost ring-offset-base-100 ring-offset-2">
-                      <img src={require('../../me3.jpeg')} alt={'shaggy'}/>
+                      <img src={require('../../assets/me3.jpeg')} alt={'shaggy'}/>
                     </div>
                   </div>
                   <div className="flex justify-center font-bold text-2xl named">

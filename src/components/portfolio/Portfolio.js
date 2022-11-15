@@ -1,18 +1,23 @@
-import React, { Component, useState } from "react";
+import React, { Component } from "react";
 import "./Portfolio.css";
 import { TabView, TabPanel } from "primereact/tabview";
 import { SplitButton } from "primereact/splitbutton";
 import { Avatar } from "primereact/avatar";
 
-const TabViewDemo = () => {
-  const [activeIndex1, setActiveIndex1] = useState(1);
-  const [activeIndex2, setActiveIndex2] = useState(0);
-  const scrollableTabs = Array.from({ length: 50 }, (_, i) => ({
-    title: `Tab ${i + 1}`,
-    content: `Tab ${i + 1} Content`,
-  }));
+export class Portfolio extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      activeIndex1: 1,
+      activeIndex2: 0,
+    };
 
-  const tabHeaderITemplate = (options) => {
+    this.tabHeaderITemplate = this.tabHeaderITemplate.bind(this);
+    this.tabHeaderIITemplate = this.tabHeaderIITemplate.bind(this);
+    this.tabHeaderIIITemplate = this.tabHeaderIIITemplate.bind(this);
+  }
+
+  tabHeaderITemplate(options) {
     return (
       <button
         type="button"
@@ -23,9 +28,9 @@ const TabViewDemo = () => {
         {options.titleElement}
       </button>
     );
-  };
+  }
 
-  const tabHeaderIIITemplate = (options) => {
+  tabHeaderIIITemplate(options) {
     const items = [
       { label: "Update", icon: "pi pi-refresh" },
       { label: "Delete", icon: "pi pi-times" },
@@ -41,9 +46,9 @@ const TabViewDemo = () => {
         model={items}
       ></SplitButton>
     );
-  };
+  }
 
-  const tabHeaderIITemplate = (options) => {
+  tabHeaderIITemplate(options) {
     return (
       <div
         className="flex align-items-center px-3"
@@ -62,38 +67,118 @@ const TabViewDemo = () => {
         Amy Elsner
       </div>
     );
-  };
-};
+  }
 
-export class Portfolio extends Component {
   render() {
-    const scrollableTabs = Array.from({ length: 50 }, (_, i) => ({
-      title: `Tab ${i + 1}`,
-      content: `Tab ${i + 1} Content`,
-    }));
+    // const scrollableTabs = Array.from({ length: 50 }, (_, i) => ({
+    //   title: `Tab ${i + 1}`,
+    //   content: `Tab ${i + 1} Content`,
+    // }));
 
     return (
-        <div className="card">
-        <h5>Header Icons</h5>
-        <TabView className="tabview-header-icon">
-            <TabPanel header="Header I" leftIcon="pi pi-calendar">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div className="min-h-screen bg-base-100">
+        <h1 className="flex font-bold text-5xl justify-center">Portfolio</h1>
+        <div className="flex card justify-center">
+          <TabView className="tabview-header-icon">
+            <TabPanel header="All" leftIcon="pi pi-folder">
+              <div className="flex flex-wrap justify-center  mt-6 mb-6">
+                <div className="flex flex-row justify-center m-6">
+                  <div className="card w-80 glass">
+                    <figure>
+                      <img
+                        src={require("../../assets/Screenshot 2022-10-27 at 10.30.38.png")}
+                        alt={"note!"}
+                      />
+                    </figure>
+                    <div className="card-body">
+                      <h2 className="card-title">Note App</h2>
+                      <p>
+                        App that save your note online and save them for you
+                        even when you lose your phone you can access them from
+                        anywhere
+                      </p>
+                      <div className="card-actions justify-end">
+                        <label htmlFor="my-modal-6" className="btn modal-button next">
+                          Learn more..
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </TabPanel>
-            <TabPanel header="Header II" rightIcon="pi pi-user">
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-            voluptatem sequi nesciunt. Consectetur, adipisci velit, sed quia non numquam eius modi.</p>
+            <TabPanel header="APP" leftIcon="pi pi-th-large">
+              <div className="flex flex-wrap justify-center  mt-6 mb-6">
+                <div className="flex flex-row justify-center m-6">
+                  <div className="card w-80 glass">
+                    <figure>
+                      <img
+                        src={require("../../assets/Screenshot 2022-10-27 at 10.30.38.png")}
+                        alt={"note!"}
+                      />
+                    </figure>
+                    <div className="card-body">
+                      <h2 className="card-title">Note App</h2>
+                      <p>
+                        App that save your note online and save them for you
+                        even when you lose your phone you can access them from
+                        anywhere
+                      </p>
+                      <div className="card-actions justify-end">
+                        <label htmlFor="my-modal-6" className="btn modal-button next">
+                          Learn more..
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </TabPanel>
-            <TabPanel header="Header III" leftIcon="pi pi-search" rightIcon="pi pi-cog">
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
-                cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
-            Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.</p>
+            <TabPanel header="WEBSITES" leftIcon="pi pi-globe">
+              <div className="flex flex-wrap justify-center  mt-6 mb-6">
+                <div className="flex flex-row justify-center m-6">
+                  <div className="card w-80 glass">
+                    <figure>
+                      <img src={require("../../assets/not.png")} alt={"note!"}/>
+                    </figure>
+                    <div className="card-body">
+                      <h2 className="card-title">No Website Yet.</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </TabPanel>
-        </TabView>
-    </div>
+          </TabView>
+        </div>
 
+        <div className="flex justify-center">
+          <input type="checkbox" id="my-modal-6" className="modal-toggle" />
+          <div className="modal modal-bottom sm:modal-middle">
+            <div className="modal-box">
+              <h3 className="font-bold text-lg">Note App</h3>
+              <img
+                src={require("../../assets/Screenshot 2022-10-27 at 10.30.38.png")}
+                alt={""}
+              />
+              <p>
+                App that save your note online and save them for you even when
+                you lose your phone you can access them from anywhere
+              </p>
+
+              <div className="modal-action">
+                <div className="web flex justify-center">
+                  <a className="tt" href="https://belco.netlify.app/">
+                    See the app
+                  </a>
+                </div>
+                <label htmlFor="my-modal-6" className="btn btn-error">
+                  Exit
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     );
   }
 }

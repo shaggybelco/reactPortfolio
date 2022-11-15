@@ -22,8 +22,10 @@
   .about {
     /* // list-style-image: url(../../../assets/code.png); */
     /* OR */
-    list-style-type: "👉";
-    padding-inline-start: 1ch;
+    /* list-style-type: "🫡"; */
+    padding: 6px;
+    
+    /* padding-inline-start: 1ch; */
   }
   
   img {
@@ -51,3 +53,6 @@
     font-style: normal;
   }
   
+  .round{
+    border-radius: 15px;
+  }

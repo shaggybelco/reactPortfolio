@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Home.css";
-import background from "../../me.jpeg";
+import background from "../../assets/me.jpeg";
 
 export class Home extends Component {
   render() {
