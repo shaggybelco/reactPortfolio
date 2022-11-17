@@ -47,7 +47,7 @@ export class Resume extends Component {
 
             <div className="card-body">
               <h1 className="text-5xl font-bold">Professional Experience</h1>
-              <h1 className="text-2xl font-bold">The Digital Academy</h1>
+              <h1 className="text-2xl font-bold">The Digital Academy - Learnership</h1>
               <div className="exp">01 June 2022 - 31 May 2023</div>
               <div className="res">
                 7 Quince Street, The Medial Mill, Auckland Park, Johannesburg,
@@ -67,7 +67,7 @@ export class Resume extends Component {
                 </ul>
               </div>
 
-              <h1 className="text-2xl font-bold">Ekhonnector</h1>
+              <h1 className="text-2xl font-bold">Ekhonnector - Internship</h1>
               <div className="exp">14 January 2022 - 30 June 2022</div>
               <div className="res">Nelspruit, Mpumalanga, 1200</div>
 

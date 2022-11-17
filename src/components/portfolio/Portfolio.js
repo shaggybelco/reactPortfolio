@@ -81,26 +81,95 @@ export class Portfolio extends Component {
         <div className="flex card justify-center">
           <TabView className="tabview-header-icon">
             <TabPanel header="All" leftIcon="pi pi-folder">
-              <div className="flex flex-wrap justify-center  mt-6 mb-6">
-                <div className="flex flex-row justify-center m-6">
-                  <div className="card w-80 glass">
-                    <figure>
-                      <img
-                        src={require("../../assets/Screenshot 2022-10-27 at 10.30.38.png")}
-                        alt={"note!"}
-                      />
-                    </figure>
-                    <div className="card-body">
-                      <h2 className="card-title">Note App</h2>
-                      <p>
-                        App that save your note online and save them for you
-                        even when you lose your phone you can access them from
-                        anywhere
-                      </p>
-                      <div className="card-actions justify-end">
-                        <label htmlFor="my-modal-6" className="btn modal-button next">
-                          Learn more..
-                        </label>
+              <div className="grid md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 lg:grid-cols-2 gap-3 justify-center">
+                {/* note app */}
+                <div className="flex flex-wrap justify-center  mt-6 mb-6">
+                  <div className="flex flex-row justify-center m-6">
+                    <div className="card w-80 glass">
+                      <figure>
+                        <img
+                          src={require("../../assets/Screenshot 2022-10-27 at 10.30.38.png")}
+                          alt={"note!"}
+                        />
+                      </figure>
+                      <div className="card-body">
+                        <h2 className="card-title">Note App</h2>
+                        <p>
+                          App that save your note online and save them for you
+                          even when you lose your phone you can access them from
+                          anywhere
+                        </p>
+                        <div className="card-actions justify-end">
+                          <label
+                            htmlFor="my-modal-6"
+                            className="btn modal-button next"
+                          >
+                            Learn more..
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* socila lite */}
+                <div className="flex flex-wrap justify-center  mt-6 mb-6">
+                  <div className="flex flex-row justify-center m-6">
+                    <div className="card w-80 glass">
+                      <figure>
+                        <img
+                          src={require("../../assets/Screenshot 2022-11-16 at 09.35.12.png")}
+                          alt={"note!"}
+                          style={{ height: 233.38, width: 320 }}
+                        />
+                      </figure>
+                      <div className="card-body">
+                        <h2 className="card-title">Socialite App</h2>
+                        <p>
+                          It is a clone of facebook where can follow and
+                          unfollow other users and see the other people's posts.
+                          but the difference is huge and it does not send
+                          message.
+                        </p>
+                        <div className="card-actions justify-end">
+                          <label
+                            htmlFor="my-modal-3"
+                            className="btn modal-button next"
+                          >
+                            Learn more..
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* guidence hub */}
+                <div className="flex flex-wrap justify-center  mt-6 mb-6">
+                  <div className="flex flex-row justify-center m-6">
+                    <div className="card w-80 glass">
+                      <figure>
+                        <img
+                          src={require("../../assets/Screenshot 2022-11-16 at 09.51.40.png")}
+                          alt={"note!"}
+                          style={{ height: 233.38, width: 320 }}
+                        />
+                      </figure>
+                      <div className="card-body">
+                        <h2 className="card-title">Guidence Hub App</h2>
+                        <p>
+                          It helps learners from grade 9 to find the best career
+                          they can do through a series question that identify if
+                          you are a critical thinker, analytical thinker or a
+                          problem solver
+                        </p>
+                        <div className="card-actions justify-end">
+                          <label
+                            htmlFor="my-modal"
+                            className="btn modal-button next"
+                          >
+                            Learn more..
+                          </label>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -108,26 +177,96 @@ export class Portfolio extends Component {
               </div>
             </TabPanel>
             <TabPanel header="APP" leftIcon="pi pi-th-large">
-              <div className="flex flex-wrap justify-center  mt-6 mb-6">
-                <div className="flex flex-row justify-center m-6">
-                  <div className="card w-80 glass">
-                    <figure>
-                      <img
-                        src={require("../../assets/Screenshot 2022-10-27 at 10.30.38.png")}
-                        alt={"note!"}
-                      />
-                    </figure>
-                    <div className="card-body">
-                      <h2 className="card-title">Note App</h2>
-                      <p>
-                        App that save your note online and save them for you
-                        even when you lose your phone you can access them from
-                        anywhere
-                      </p>
-                      <div className="card-actions justify-end">
-                        <label htmlFor="my-modal-6" className="btn modal-button next">
-                          Learn more..
-                        </label>
+              <div className="grid md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 lg:grid-cols-2 gap-3 justify-center">
+                {/* note app */}
+                <div className="flex flex-wrap justify-center  mt-6 mb-6">
+                  <div className="flex flex-row justify-center m-6">
+                    <div className="card w-80 glass">
+                      <figure>
+                        <img
+                          src={require("../../assets/Screenshot 2022-10-27 at 10.30.38.png")}
+                          alt={"note!"}
+                        />
+                      </figure>
+                      <div className="card-body">
+                        <h2 className="card-title">Note App</h2>
+                        <p>
+                          App that save your note online and save them for you
+                          even when you lose your phone you can access them from
+                          anywhere
+                        </p>
+                        <div className="card-actions justify-end">
+                          <label
+                            htmlFor="my-modal-6"
+                            className="btn modal-button next"
+                          >
+                            Learn more..
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* guidence hub */}
+                <div className="flex flex-wrap justify-center  mt-6 mb-6">
+                  <div className="flex flex-row justify-center m-6">
+                    <div className="card w-80 glass">
+                      <figure>
+                        <img
+                          src={require("../../assets/Screenshot 2022-11-16 at 09.51.40.png")}
+                          alt={"note!"}
+                          style={{ height: 233.38, width: 320 }}
+                        />
+                      </figure>
+                      <div className="card-body">
+                        <h2 className="card-title">Guidence Hub App</h2>
+                        <p>
+                          It helps learners from grade 9 to find the best career
+                          they can do through a series question that identify if
+                          you are a critical thinker, analytical thinker or a
+                          problem solver
+                        </p>
+                        <div className="card-actions justify-end">
+                          <label
+                            htmlFor="my-modal"
+                            className="btn modal-button next"
+                          >
+                            Learn more..
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                 {/* socila lite */}
+                 <div className="flex flex-wrap justify-center  mt-6 mb-6">
+                  <div className="flex flex-row justify-center m-6">
+                    <div className="card w-80 glass">
+                      <figure>
+                        <img
+                          src={require("../../assets/Screenshot 2022-11-16 at 09.35.12.png")}
+                          alt={"note!"}
+                          style={{ height: 233.38, width: 320 }}
+                        />
+                      </figure>
+                      <div className="card-body">
+                        <h2 className="card-title">Socialite App</h2>
+                        <p>
+                          It is a clone of facebook where can follow and
+                          unfollow other users and see the other people's posts.
+                          but the difference is huge and it does not send
+                          message.
+                        </p>
+                        <div className="card-actions justify-end">
+                          <label
+                            htmlFor="my-modal-3"
+                            className="btn modal-button next"
+                          >
+                            Learn more..
+                          </label>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -139,7 +278,10 @@ export class Portfolio extends Component {
                 <div className="flex flex-row justify-center m-6">
                   <div className="card w-80 glass">
                     <figure>
-                      <img src={require("../../assets/not.png")} alt={"note!"}/>
+                      <img
+                        src={require("../../assets/not.png")}
+                        alt={"note!"}
+                      />
                     </figure>
                     <div className="card-body">
                       <h2 className="card-title">No Website Yet.</h2>
@@ -151,6 +293,7 @@ export class Portfolio extends Component {
           </TabView>
         </div>
 
+        {/* modal for note app */}
         <div className="flex justify-center">
           <input type="checkbox" id="my-modal-6" className="modal-toggle" />
           <div className="modal modal-bottom sm:modal-middle">
@@ -172,6 +315,65 @@ export class Portfolio extends Component {
                   </a>
                 </div>
                 <label htmlFor="my-modal-6" className="btn btn-error">
+                  Exit
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* guidence hub app */}
+        <div className="flex justify-center">
+          <input type="checkbox" id="my-modal" className="modal-toggle" />
+          <div className="modal modal-bottom sm:modal-middle">
+            <div className="modal-box">
+              <h3 className="font-bold text-lg">Guidence Hub App</h3>
+              <img
+                src={require("../../assets/Screenshot 2022-11-16 at 09.51.40.png")}
+                alt={"hub!"}
+              />
+              <p>
+                This app can help even the people who know what they want to do
+                and but either want information or they are not sure about the
+                requirement and more information.
+              </p>
+
+              <div className="modal-action">
+                <div className="web flex justify-center">
+                  <a className="tt" href="https://guidence.netlify.app/">
+                    See the app
+                  </a>
+                </div>
+                <label htmlFor="my-modal" className="btn btn-error">
+                  Exit
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* modal for socialite app */}
+        <div className="flex justify-center">
+          <input type="checkbox" id="my-modal-3" className="modal-toggle" />
+          <div className="modal modal-bottom sm:modal-middle">
+            <div className="modal-box">
+              <h3 className="font-bold text-lg">Guidence Hub App</h3>
+              <img
+                src={require("../../assets/Screenshot 2022-11-16 at 09.35.12.png")}
+                alt={"hub!"}
+              />
+              <p>
+                This app is not on hosted on the internet but if you are
+                interested on how it is develop, you can check on github
+              </p>
+
+              <div className="modal-action">
+                <div className="web flex justify-center">
+                  <a className="tt" href="https://github.com/shaggybelco/socialite.git">
+                    See the app
+                  </a>
+                </div>
+                <label htmlFor="my-modal-3" className="btn btn-error">
                   Exit
                 </label>
               </div>

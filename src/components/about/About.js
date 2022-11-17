@@ -20,9 +20,7 @@ export class About extends Component {
               </p>
               <div className="flex flex-wrap lg:flex-row sm:flex-row-1 justify-center text-left">
                 <ul>
-                  <li className="about">
-                    <span className="font-bold">Birthday:</span> 29 January 2000
-                  </li>
+                 
                   <li className="about">
                     <span className="font-bold">Phone:</span> 072 760 7323
                   </li>
@@ -32,9 +30,7 @@ export class About extends Component {
                   </li>
                 </ul>
                 <ul>
-                  <li className="about">
-                    <span className="font-bold">Age:</span> 22
-                  </li>
+                 
                   <li className="about">
                     <span className="font-bold">Degree:</span> National Diploma
                   </li>
@@ -88,12 +84,12 @@ export class About extends Component {
                 <path fill="#eee" d="M18 24H24V28H18z"></path>
               </svg>
               <span className="font-bold b">Angular2+</span>
-              <span className="ml-6">65%</span>
+              <span className="ml-6">40%</span>
             </i>
             <span>
               <progress
                 className="progress progress-primary w-56"
-                value="70"
+                value="40"
                 max="100"
               ></progress>
             </span>
@@ -125,12 +121,12 @@ export class About extends Component {
                 ></path>
               </svg>
               <span className="font-bold b">HTML5</span>
-              <span className="ml-6">90%</span>
+              <span className="ml-6">45%</span>
             </i>
             <span>
               <progress
                 className="progress progress-primary w-56"
-                value="90"
+                value="45"
                 max="100"
               ></progress>
             </span>
@@ -162,12 +158,12 @@ export class About extends Component {
                 ></path>
               </svg>
               <span className="font-bold b">CSS</span>
-              <span className="ml-6">70%</span>
+              <span className="ml-6">30%</span>
             </i>
             <span>
               <progress
                 className="progress progress-primary w-56"
-                value="70"
+                value="30"
                 max="100"
               ></progress>
             </span>
@@ -204,12 +200,12 @@ export class About extends Component {
                 <path fill="#fff" d="M32 25H40V26H32zM32 22H40V23H32z"></path>
               </svg>
               <span className="font-bold b">C Sharp</span>
-              <span className="ml-6">50%</span>
+              <span className="ml-6">34%</span>
             </i>
             <span>
               <progress
                 className="progress progress-primary w-56"
-                value="50"
+                value="34"
                 max="100"
               ></progress>
             </span>
@@ -233,12 +229,12 @@ export class About extends Component {
                 ></path>
               </svg>
               <span className="font-bold b">JavaScript</span>
-              <span className="ml-6">50%</span>
+              <span className="ml-6">30%</span>
             </i>
             <span>
               <progress
                 className="progress progress-primary w-56"
-                value="60"
+                value="30"
                 max="100"
               ></progress>
             </span>
@@ -342,12 +338,12 @@ export class About extends Component {
                 </g>
               </svg>
               <span className="font-bold b">C++</span>
-              <span className="ml-6">65%</span>
+              <span className="ml-6">35%</span>
             </i>
             <span>
               <progress
                 className="progress progress-primary w-56"
-                value="65"
+                value="35"
                 max="100"
               ></progress>
             </span>
@@ -374,12 +370,12 @@ export class About extends Component {
                 ></path>
               </svg>
               <span className="font-bold b">NodeJs Express</span>
-              <span className="ml-6">70%</span>
+              <span className="ml-6">36%</span>
             </i>
             <span>
               <progress
                 className="progress progress-primary w-56"
-                value="80"
+                value="36"
                 max="100"
               ></progress>
             </span>
@@ -426,12 +422,12 @@ export class About extends Component {
                 </g>
               </svg>
               <span className="font-bold b">MySql</span>
-              <span className="ml-6">55%</span>
+              <span className="ml-6">34%</span>
             </i>
             <span>
               <progress
                 className="progress progress-primary w-56"
-                value="65"
+                value="34"
                 max="100"
               ></progress>
             </span>
@@ -454,12 +450,12 @@ export class About extends Component {
                 ></path>
               </svg>
               <span className="font-bold b">Git</span>
-              <span className="ml-6">79%</span>
+              <span className="ml-6">45%</span>
             </i>
             <span>
               <progress
                 className="progress progress-primary w-56"
-                value="79"
+                value="45"
                 max="100"
               ></progress>
             </span>
@@ -493,12 +489,12 @@ export class About extends Component {
                 ></path>
               </svg>
               <span className="font-bold b">PostgreSql</span>
-              <span className="ml-6">55%</span>
+              <span className="ml-6">30%</span>
             </i>
             <span>
               <progress
                 className="progress progress-primary w-56"
-                value="79"
+                value="30"
                 max="100"
               ></progress>
             </span>
