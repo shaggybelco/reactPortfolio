@@ -111,69 +111,7 @@ export class Portfolio extends Component {
                     </div>
                   </div>
                 </div>
-                {/* socila lite */}
-                <div className="flex flex-wrap justify-center  mt-6 mb-6">
-                  <div className="flex flex-row justify-center m-6">
-                    <div className="card w-80 glass">
-                      <figure>
-                        <img
-                          src={require("../../assets/Screenshot 2022-11-16 at 09.35.12.png")}
-                          alt={"note!"}
-                          style={{ height: 233.38, width: 320 }}
-                        />
-                      </figure>
-                      <div className="card-body">
-                        <h2 className="card-title">Socialite App</h2>
-                        <p>
-                          It is a clone of facebook where can follow and
-                          unfollow other users and see the other people's posts.
-                          but the difference is huge and it does not send
-                          message.
-                        </p>
-                        <div className="card-actions justify-end">
-                          <label
-                            htmlFor="my-modal-3"
-                            className="btn modal-button next"
-                          >
-                            Learn more..
-                          </label>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* guidence hub */}
-                <div className="flex flex-wrap justify-center  mt-6 mb-6">
-                  <div className="flex flex-row justify-center m-6">
-                    <div className="card w-80 glass">
-                      <figure>
-                        <img
-                          src={require("../../assets/Screenshot 2022-11-16 at 09.51.40.png")}
-                          alt={"note!"}
-                          style={{ height: 233.38, width: 320 }}
-                        />
-                      </figure>
-                      <div className="card-body">
-                        <h2 className="card-title">Guidence Hub App</h2>
-                        <p>
-                          It helps learners from grade 9 to find the best career
-                          they can do through a series question that identify if
-                          you are a critical thinker, analytical thinker or a
-                          problem solver
-                        </p>
-                        <div className="card-actions justify-end">
-                          <label
-                            htmlFor="my-modal"
-                            className="btn modal-button next"
-                          >
-                            Learn more..
-                          </label>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                
               </div>
             </TabPanel>
             <TabPanel header="APP" leftIcon="pi pi-th-large">
@@ -208,69 +146,7 @@ export class Portfolio extends Component {
                   </div>
                 </div>
 
-                {/* guidence hub */}
-                <div className="flex flex-wrap justify-center  mt-6 mb-6">
-                  <div className="flex flex-row justify-center m-6">
-                    <div className="card w-80 glass">
-                      <figure>
-                        <img
-                          src={require("../../assets/Screenshot 2022-11-16 at 09.51.40.png")}
-                          alt={"note!"}
-                          style={{ height: 233.38, width: 320 }}
-                        />
-                      </figure>
-                      <div className="card-body">
-                        <h2 className="card-title">Guidence Hub App</h2>
-                        <p>
-                          It helps learners from grade 9 to find the best career
-                          they can do through a series question that identify if
-                          you are a critical thinker, analytical thinker or a
-                          problem solver
-                        </p>
-                        <div className="card-actions justify-end">
-                          <label
-                            htmlFor="my-modal"
-                            className="btn modal-button next"
-                          >
-                            Learn more..
-                          </label>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                 {/* socila lite */}
-                 <div className="flex flex-wrap justify-center  mt-6 mb-6">
-                  <div className="flex flex-row justify-center m-6">
-                    <div className="card w-80 glass">
-                      <figure>
-                        <img
-                          src={require("../../assets/Screenshot 2022-11-16 at 09.35.12.png")}
-                          alt={"note!"}
-                          style={{ height: 233.38, width: 320 }}
-                        />
-                      </figure>
-                      <div className="card-body">
-                        <h2 className="card-title">Socialite App</h2>
-                        <p>
-                          It is a clone of facebook where can follow and
-                          unfollow other users and see the other people's posts.
-                          but the difference is huge and it does not send
-                          message.
-                        </p>
-                        <div className="card-actions justify-end">
-                          <label
-                            htmlFor="my-modal-3"
-                            className="btn modal-button next"
-                          >
-                            Learn more..
-                          </label>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                
               </div>
             </TabPanel>
             <TabPanel header="WEBSITES" leftIcon="pi pi-globe">
